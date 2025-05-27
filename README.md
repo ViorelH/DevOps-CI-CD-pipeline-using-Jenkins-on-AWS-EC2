@@ -2,16 +2,16 @@
 
 This project demonstrates how to set up a Jenkins server on an AWS EC2 instance to automate the CI process for a Python project.
 
-## 🌍 Project Overview
+##  Project Overview
 
-- 🌐 Jenkins hosted on Ubuntu EC2 instance
-- 🧪 CI job runs `pytest` to test a simple Python app
-- 📥 Pulls source code from GitHub
-- ✅ Publishes JUnit test results in Jenkins UI
+-  Jenkins hosted on Ubuntu EC2 instance
+-  CI job runs `pytest` to test a simple Python app
+-  Pulls source code from GitHub
+-  Publishes JUnit test results in Jenkins UI
 
 ---
 
-## 🚀 Setup Guide
+##  Setup Guide
 
 ### 1. Launch EC2 Instance
 
@@ -49,8 +49,8 @@ Install suggested plugins
 
 Create admin user
 
-⚙️ Jenkins Job Setup
-✅ Freestyle Project: python-ci
+ Jenkins Job Setup
+ Freestyle Project: python-ci
 GitHub Repo: ViorelH/python-ci-cd-demo
 
 Build Steps:
@@ -64,12 +64,12 @@ Publish JUnit test result report
 
 File: results.xml
 
-🧪 Example Output
+ Example Output
 Console logs showing test execution
 
 JUnit report in Jenkins UI
 
-🛡️ Optional Enhancements
+ Optional Enhancements
 Add GitHub Webhook to trigger Jenkins on push
 
 Use a Jenkinsfile for pipeline-as-code
@@ -78,9 +78,10 @@ Build Docker images or deploy to Kubernetes
 
 Secure Jenkins with Nginx + HTTPS
 
-📊 Add Build Status Badge
+ Add Build Status Badge
 Paste in your GitHub README.md:
 
 ![Build Status](http://51.21.244.16:8080/buildStatus/icon?job=python-ci)
-🙌 Author
+
+ Author
 ViorelH — DevOps CI/CD pipeline using Jenkins on AWS EC2.
